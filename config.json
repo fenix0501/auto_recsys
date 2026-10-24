@@ -1,0 +1,17 @@
+{
+  "seed": 43,
+  "k": 10,
+  "candidate_limit": 100,
+  "knn_candidates": 50,
+  "knn_neighbors": 50,
+  "windows": [3, 7, 14, 30],
+  "model": {
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_child_samples": 50,
+    "reg_lambda": 1.0
+  },
+  "dataset_commit": "f69775be31fa5779907cf0a92ddedb70037fb5ae",
+  "dataset_archive_sha256": "50fc5b7db78cbda4c3d0ee5bb5bea4c416cff41e8af58aab0b661d0d3e9dfa9b",
+  "excluded_users_path": "data/excluded_users.csv"
+}
